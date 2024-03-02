@@ -1,1 +1,16 @@
+server:
+  port: 8080
 
+spring:
+  application:
+    name: spring-boot-cron-job-scheduler
+  task:
+    scheduling:
+      pool:
+        size: 5
+
+jwt:
+  secret-key: bchsgfahfxniefhiwfhign4cglibWNGWbhgrjghrunHJBvJregrghkreghlnerhigkhrlbreigwrkhgerkrgrdhkgigkekeugnerue4AU
+
+scheduler:
+  cron-expression: 0 0/15 * * * ?
